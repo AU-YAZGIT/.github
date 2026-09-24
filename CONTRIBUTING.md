@@ -187,7 +187,7 @@ Kişisel bilgi veya telif ihlali içeren bir içerik görürsen, herkese açık 
 
 ## 9. Güvenlik açığı bildirimi
 
-Bir güvenlik açığı bulduysan lütfen **herkese açık issue açma**. [SECURITY.md](https://github.com/AU-YAZGIT/.github/SECURITY.md) dosyasındaki adımları izle.
+Bir güvenlik açığı bulduysan lütfen **herkese açık issue açma**. [SECURITY.md](https://github.com/AU-YAZGIT/.github/blob/main/SECURITY.md) dosyasındaki adımları izle.
 
 ## Sorularınız mı var?
 
