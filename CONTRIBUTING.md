@@ -6,6 +6,8 @@ Bu rehber, organizasyondaki tüm depolar için geçerli varsayılan kurallardır
 
 Bir deponun kendi `CONTRIBUTING.md` dosyası varsa, o depoda önce o dosya geçerlidir.
 
+> **Bu rehber bir başlangıç noktasıdır.** Buradaki yöntemler bizim standardımızdır ve çoğu durumda işini görür. Ama projen için farklı bir düzen daha uygunsa, bunu deponun kendi `CONTRIBUTING.md` dosyasında belirtip o şekilde ilerleyebilirsin. Rehberi zamanla birlikte geliştireceğiz, önerilerin değerlidir.
+
 Katkı vermeden önce lütfen [Davranış Kuralları](https://github.com/AU-YAZGIT/.github/blob/main/CODE_OF_CONDUCT.md) dosyasını oku.
 
 ## İçindekiler
@@ -77,9 +79,9 @@ Başlamak için `good first issue` etiketli issue'lara bakabilirsin. Büyük bir
 
 ### Commit mesajları
 
-Commit mesajlarında [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) standardını takip ediyoruz. 
+Commit mesajlarında [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) standardını takip ediyoruz.
 
-Standardın tamamı için bağlantıya bakabilirsin. 
+Standardın tamamı için bağlantıya bakabilirsin.
 
 Kısaca biçim şöyledir:
 
@@ -111,17 +113,28 @@ Kurallar: açıklama küçük harfle başlar, sonuna nokta konmaz, tek bir deği
 - Başlık, commit biçimiyle aynı olmalı (`docs: katkı rehberini güncelle`).
 - Açıklamada şunları yaz: **ne** değiştirdin, **neden**, ilgili issue varsa **`Closes #12`**.
 - Görsel bir değişiklik varsa ekran görüntüsü ekle.
-- PR şablonundaki kutucukları doldur.
 - İşin henüz bitmediyse **Draft PR** olarak aç.
 - Değişikliği yapmadan önce çakışmaları çöz; PR'ın güncel `main` ile uyumlu olmalı.
 - **Kendi PR'ını kendin birleştirme.**
+
+### PR şablonu
+
+Standart PR açıklama biçimimiz [`PULL_REQUEST_TEMPLATE.md`](https://github.com/AU-YAZGIT/.github/blob/main/PULL_REQUEST_TEMPLATE.md) dosyasındadır. PR açtığında GitHub bu şablonu açıklama alanına otomatik doldurur. Ne değiştiğini, nedenini ve kısa bir kontrol listesini (içerik politikası, lisans, yapay zeka kullanımı) içerir.
+
+Şablonu kullanmak **önerilir ama zorunlu değildir**. Farklı bir düzen kullanmak istersen serbestsin. Yeter ki PR açıklamasında şunlar bulunsun:
+
+- Ne değişti ve neden
+- [İçerik politikasına](#6-içerik-politikası) uyduğuna dair bir not
+- Yapay zeka kullandıysan bunun belirtilmesi
+
+Bir deponun kendi PR şablonu varsa (`.github/PULL_REQUEST_TEMPLATE.md`), o depoda o şablon kullanılır.
 
 ## 5. İnceleme süreci
 
 - Her PR en az **1 onay** almalı; onay veren PR sahibi olamaz.
 - Eğer depoda PR onaylama yoksa Proje sahibi kişi veyahut Proje ekibi değerlendirebilir.
 - Hedefimiz, ilk yanıtı **7 gün** içinde vermektir. Bu süre garanti değil, hedeftir; bekliyorsan nazikçe PR'ın altına yorum yazabilirsin.
-- İnceleyenler şuna bakar: doğruluk, okunabilirlik, bu rehbere ve [içerik politikasına](#6-i̇çerik-politikası) uygunluk, ilgili konunun kapsamına uyum.
+- İnceleyenler şuna bakar: doğruluk, okunabilirlik, bu rehbere ve [içerik politikasına](#6-içerik-politikası) uygunluk, ilgili konunun kapsamına uyum.
 - Değişiklik istenirse aynı dala yeni commit ekle; PR otomatik güncellenir.
 - Beklenen düzeltme **30 gün** içinde gelmezse PR kapatılabilir. İstediğin zaman yeniden açabilirsin.
 - Anlaşmazlık olursa son karar ilgili deponun sorumlusuna, o da çözemezse yönetim kuruluna aittir.
@@ -140,7 +153,7 @@ Aşağıdaki kurallar özellikle ders notu, workshop materyali ve benzeri içeri
 - Öğretim üyesinin **izni olmadan** ders slaytları veya ders materyalleri
 - Devam eden sınavlara ait sorular, cevaplar veya kopya işlevi gören içerikler
 - Başkasına ait kişisel bilgiler (isim, numara, e-posta, fotoğraf)
-- Başkasının çalışmasını kendi çalışmanmış gibi sunan içerik
+- Başkasının çalışmasını kendi çalışmasıymış gibi sunan içerik
 - Nefret söylemi, taciz veya yasa dışı içerik
 - Parola, API anahtarı, token gibi gizli bilgiler
 
@@ -154,8 +167,8 @@ Aşağıdaki kurallar özellikle ders notu, workshop materyali ve benzeri içeri
 - Görselleri, ilgili notun yanında `images/` veya `assets/` klasörüne koy.
 - Notlar için `.md` veya `.pdf` tercih edilir. Derlenmiş çalıştırılabilir dosyalar (`.exe` vb.) kabul edilmez.
 
-**Alternatif Yol**
-- Eğer depo içerisinde dosyaları yüklemek istemezsen kendi deponu aç ve profilinde sergile. Bizim açtığımız depo sadece bir giriş noktası olur ve öğrenciler senin depondan fayda eder.
+**Alternatif yol**
+- Dosyalarını bu depoya yüklemek istemiyorsan kendi deponu açıp profilinde sergileyebilirsin. Bizim açtığımız depo bir giriş noktası olur, öğrenciler senin deponun bağlantısı üzerinden faydalanır.
 
 ## 7. Atıf ve lisans
 
@@ -179,11 +192,11 @@ Aşağıdaki kurallar özellikle ders notu, workshop materyali ve benzeri içeri
 
 Bir öğretim üyesi, öğrenci veya hak sahibi olarak içeriğinin kaldırılmasını istiyorsan:
 
-1. İlgili depoda **"İçerik Kaldırma Talebi"** şablonuyla issue aç **veya** proje komitesi ile iletişime geç.
+1. İlgili depoda **"İçerik Kaldırma Talebi"** başlıklı bir issue aç **veya** proje komitesi ile iletişime geç.
 2. Hangi dosya veya içeriğin kaldırılmasını istediğini ve nedenini belirt.
 3. Talebe **7 gün** içinde yanıt vermeyi hedefliyoruz. Hak sahibinin talebi netse içerik önce **geçici olarak kaldırılır**, sonra değerlendirme yapılır.
 
-Kişisel bilgi veya telif ihlali içeren bir içerik görürsen, herkese açık issue yerine direkt bizimle iletişime geçerek ile bildirmeni öneririz.
+Kişisel bilgi veya telif ihlali içeren bir içerik görürsen, herkese açık issue yerine doğrudan bizimle iletişime geçerek bildirmeni öneririz.
 
 ## 9. Güvenlik açığı bildirimi
 
