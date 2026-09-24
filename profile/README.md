@@ -22,7 +22,7 @@ Emeği geçen öğrenciler proje sahibi olarak yer alır; akademisyenler danış
 
 ## Nasıl Katılabilirim?
 
-1. **Üye ol:** Topluluğa katılım için [web sitemizi](https://www.yazgit.com.tr) ve sosyal medya hesaplarımızı takip et.
+1. **Üye ol:** Topluluğa katılım için [web sitemizi](https://www.yazgit.com/) ve sosyal medya hesaplarımızı takip et.
 2. **Bir depoya katkı ver:** İlgili deponun `CONTRIBUTING.md` dosyasını oku, fork'la, dal aç ve Pull Request gönder.
 3. **Fikrini paylaş:** Bir issue veya Discussion aç.
 4. **Takım kur:** Datathon ve yarışmalara topluluk adına birlikte katıl.
@@ -46,6 +46,6 @@ Topluluğumuzla etkinlik, workshop veya ortak proje düzenlemek isteyen kurum ve
  
 ## İletişim
  
-- Web: [yazgit.com.tr](https://www.yazgit.com.tr)
+- Web: [yazgit.com.tr](https://www.yazgit.com/)
 - LinkedIn: [YAZGİT](https://tr.linkedin.com/company/au-yazgit)
 - Instagram: [Instagram](https://www.instagram.com/au_yazgit/)
