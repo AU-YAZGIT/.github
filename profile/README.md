@@ -46,6 +46,6 @@ Topluluğumuzla etkinlik, workshop veya ortak proje düzenlemek isteyen kurum ve
  
 ## İletişim
  
-- Web: [yazgit.com.tr](https://www.yazgit.com/)
+- Web: [yazgit.com](https://www.yazgit.com/)
 - LinkedIn: [YAZGİT](https://tr.linkedin.com/company/au-yazgit)
 - Instagram: [Instagram](https://www.instagram.com/au_yazgit/)
