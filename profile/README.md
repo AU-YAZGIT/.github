@@ -17,6 +17,7 @@
 - Öğrenci projeleri ve açık kaynak girişimleri
 - İzin verilen ders notları ve kaynaklar
 - Topluluğun nasıl işlediğini anlatan rehberler
+
 Amacımız, öğrencilerin açık kaynak kültürünü sahiplenmesi ve projelerini akademik çalışmalara (makale, bildiri) dönüştürebileceği bir zemin oluşturmaktır.
 Emeği geçen öğrenciler proje sahibi olarak yer alır; akademisyenler danışman veya ortak yazar olarak destek verir.
 
